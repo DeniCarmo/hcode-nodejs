@@ -3,7 +3,7 @@ module.exports = (app)=>{
     app.get('/users', (req, res)=>{
 
         res.statusCode = 200;
-        res.setHeader('Cotnent-Type', 'application/json');
+        res.setHeader('Content-Type', 'application/json');
         res.json({
             users:[{
                 name: 'Hcode',
